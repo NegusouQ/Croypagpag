@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.content.Intent
 import android.widget.Button
 import android.widget.Toast
 import android.os.Bundle
@@ -47,9 +48,10 @@ class MainActivity : AppCompatActivity() {
             Log.v(TAG, "This is a verbose log.")
         }
 
-        val btn_click_me = findViewById(R.id.button5) as Button
-        btn_click_me.setOnClickListener {
-            Log.i(TAG, "This is an info log.")
+        val button = findViewById<Button>(R.id.buttoncroy)
+        button.setOnClickListener{
+            val intent = Intent(this, SecondActivity::class.java)
+            startActivity(intent)
         }
     }
 
