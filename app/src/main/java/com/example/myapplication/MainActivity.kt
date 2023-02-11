@@ -1,6 +1,9 @@
 package com.example.myapplication
 
+import android.widget.Button
+import android.widget.Toast
 import android.os.Bundle
+import android.util.Log
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -31,6 +34,22 @@ class MainActivity : AppCompatActivity() {
         binding.fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show()
+        }
+        val TAG = "MainActivity"
+        Log.v(TAG, "This is a verbose log.")
+        Log.d(TAG, "This is a debug log.")
+        Log.i(TAG, "This is an info log.")
+        Log.w(TAG, "This is a warn log.")
+        Log.e(TAG, "This is an error log.")
+
+        val buttoncroy = findViewById(R.id.button3) as Button
+        buttoncroy.setOnClickListener {
+            Log.v(TAG, "This is a verbose log.")
+        }
+
+        val btn_click_me = findViewById(R.id.button5) as Button
+        btn_click_me.setOnClickListener {
+            Log.i(TAG, "This is an info log.")
         }
     }
 
