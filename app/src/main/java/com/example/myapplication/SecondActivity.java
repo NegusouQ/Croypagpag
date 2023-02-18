@@ -1,9 +1,7 @@
 package com.example.myapplication;
 
 import static androidx.fragment.app.FragmentManager.TAG;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
