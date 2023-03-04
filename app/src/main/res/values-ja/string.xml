@@ -10,4 +10,24 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="Search_Button">Search</string>
+    <string name="Dogs_Checkbox">Dogs</string>
+    <string name="Cats_Checkbox">Cats</string>
+    <string name="Pirates_RadioButton">Pirates</string>
+    <string name="Ninjas_RadioButton">Ninjas</string>
+    <string name="Toggles_TextView">Toggles</string>
+    <string name="On_Off">On</string>
+    <string name="Switch_Switch">Switch</string>
+    <string name="Text_Here">vcxvx</string>
+
+    <string-array name="Spinner_item">
+        <item>Bam-i</item>
+        <item>Sinigang</item>
+        <item>Chicken Curry</item>
+        <item>Halang-Halang</item>
+        <item>Dinuguan</item>
+        <item>Chowfan</item>
+        <item>Fried Chicken</item>
+    </string-array>
 </resources>
