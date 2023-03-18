@@ -15,4 +15,10 @@
     <string name="second_fragment">Second Fragment</string>
     <string name="fragment_a">(Fragment A)</string>
     <string name="fragment_b">(Fragment B)</string>
+
+    <!-- 18-3-23 strings -->
+    <string name="search">Search</string>
+    <string name="copy">Copy</string>
+    <string name="refresh">Refresh</string>
+    <string name="this_is_a_dialog_fragment">This is Dialog Fragment</string>
 </resources>
