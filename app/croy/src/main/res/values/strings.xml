@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Croy</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="gotosecact">Go to second activity</string>
+    <string name="battery_text">Battery Status Here!</string>
+    <string name="battery_health">Click get battery notification!</string>
+</resources>
